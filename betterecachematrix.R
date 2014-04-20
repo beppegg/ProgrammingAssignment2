@@ -17,7 +17,7 @@ inverseCachingMatrix <- function(x = matrix()) {
   }
   
   clear.inverse <- function() {
-    cached <<- null
+    cached <<- NULL
   }
   
   list(get = get,
